@@ -4,8 +4,8 @@ _Projeto Acadêmico em Banco de Dados_
 
 #### INTEGRANTES DO GRUPO
 
-- Gabriel Torres da Silva     - RA 924201421 [https://github.com/lucspedr]
-- Lucas Pedro da Silva        - RA 925103467 [Analista]
+- Gabriel Torres da Silva     - RA 924201421 - [GitHub](https://github.com/GB-Torress) 
+- Lucas Pedro da Silva        - RA 925103467 - [GitHub](https://github.com/lucspedr)
 - Milena da Silva Lira        - RA 923204811 [Analista]
 - Yonara Laís da Silva Jaimes - RA 923207700 [Analista]
 
