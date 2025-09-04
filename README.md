@@ -9,7 +9,7 @@ _Projeto Acadêmico em Banco de Dados_
 | Definir | Gabriel Torres da Silva | 924201421 | [GitHub](https://github.com/GB-Torress) |
 | Definir | Lucas Pedro da Silva | 925103467 | [GitHub](https://github.com/lucspedr) |
 | Definir | Milena da Silva Lira | 923204811 | [GitHub](https://github.com/milenaslira14) |
-| Definir | Yonara Laís da Silva Jaimes | 923207700 | [GitHub]() |
+| Definir | Yonara Laís da Silva Jaimes | 923207700 | [GitHub](https://github.com/yonaralais2016-png) |
 
 
 #### DESCRIÇÃO DO SISTEMA
