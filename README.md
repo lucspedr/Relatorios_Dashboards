@@ -6,10 +6,10 @@ _Projeto Acadêmico em Banco de Dados_
 
 | Função | Nome | RA | GitHub |
 |--------|------|----|--------|
-| Definir | Gabriel Torres da Silva | 924201421 | [GitHub](https://github.com/GB-Torress) |
+| Líder | Gabriel Torres da Silva | 924201421 | [GitHub](https://github.com/GB-Torress) |
 | Dev frontend | Lucas Pedro da Silva | 925103467 | [GitHub](https://github.com/lucspedr) |
-| Definir | Milena da Silva Lira | 923204811 | [GitHub](https://github.com/milenaslira14) |
-| Definir | Yonara Laís da Silva Jaimes | 923207700 | [GitHub](https://github.com/yonaralais2016-png) |
+| Cientista de Dados | Milena da Silva Lira | 923204811 | [GitHub](https://github.com/milenaslira14) |
+| Engenheiro de Dados | Yonara Laís da Silva Jaimes | 923207700 | [GitHub](https://github.com/yonaralais2016-png) |
 
 
 #### DESCRIÇÃO DO SISTEMA
