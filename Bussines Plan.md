@@ -12,3 +12,24 @@ Entre os concorrentes diretos estão soluções como RD Station, Conta Azul e Om
 
 Nosso cliente ideal é a pequena ou média empresa do setor de comércio ou serviços, que já possui algum controle de vendas, mas enfrenta dificuldades em analisar indicadores de forma rápida e centralizada.
 
+Forças
+Fraquezas
+Dashboards simples e interativos
+Dependência de integração inicial
+Integração com CRMs e planilhas
+Necessidade de treinamento básico
+Automação de relatórios
+Menor reconhecimento de marca
+Oportunidades
+Ameaças
+Crescimento da demanda por relatórios automáticos
+Concorrência de grandes players consolidados
+Busca por insights estratégicos sem equipe de TI
+Resistência das empresas em abandonar planilhas
+
+
+Mudanças rápidas em tecnologia
+
+
+
+
