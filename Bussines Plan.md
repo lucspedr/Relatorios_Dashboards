@@ -22,7 +22,7 @@ Nosso **cliente ideal** é a **pequena ou média empresa** do setor de comércio
 ## Plano FInanceiro
 
 ### Investimento Iniciais
-####**Infraestrutura (tecnologia):**
+###**Infraestrutura (tecnologia):**
 
 - Hospedagem (GCP) → ~R$90.000/mês por 500 TB.
 - Banco de dados (MySQL) → ~R$5.500/mês.
@@ -30,14 +30,14 @@ Nosso **cliente ideal** é a **pequena ou média empresa** do setor de comércio
 - Domínio → R$60/ano 
 - SSL → Gratuito
 
-####**Desenvolvimento (time):**
+###**Desenvolvimento (time):**
 
 - Desenvolvedor full stack → R$15.000/mês.
 - Cientista/analista de dados (ETL, BI) → R$15.000/mês.
 - Engenheiro de Dados → R$14.500/mês
 - Alternativa freelancers → R$ 20.000 a R$ 40.000 para MVP
 
-####**Marketing Inicial:**
+###**Marketing Inicial:**
 
 - Marketing para captar primeiros clientes → R$3.300
 - Atendimento/suporte → Por conta da própria equipe.
