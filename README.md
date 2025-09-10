@@ -24,6 +24,3 @@ Empresas do ramo de vendas gerais.
 #### LISTA DOS MÓDULOS
 Vendas.
 
-
-
-# criar pasta + README
