@@ -4,33 +4,29 @@ O sistema irá reunir indicadores como funil de conversão, desempenho de campan
 
 ## Análise de Mercado:
 
-O mercado de **sistemas de CRM e dashboards** tem crescido de forma acelerada nos últimos anos, impulsionado pela digitalização dos processos e pelo modelo SaaS (software como serviço), que facilita o acesso de pequenas e médias empresas a soluções antes restritas a grandes corporações.
+O mercado de **sistemas de CRM e dashboards** tem crescido de forma acelerada nos últimos anos, impulsionado pela digitalização dos processos e pelo modelo **SaaS (software como serviço)**, que facilita o acesso de pequenas e médias empresas a soluções antes restritas a grandes corporações.
 
-Segundo a Statista (2024), o mercado global de CRM deve ultrapassar US$130 bilhões até 2030, com crescimento anual médio acima de 10%. No Brasil, dados do Sebrae mostram que mais de 70% das pequenas empresas ainda utilizam planilhas como principal forma de gestão, o que demonstra um grande espaço para ferramentas acessíveis e fáceis de usar.
+Segundo a **Statista (2024)**, o mercado global de CRM deve ultrapassar **US$130 bilhões até 2030**, com crescimento anual médio acima de **10%**. No Brasil, dados do **Sebrae** mostram que **mais de 70% das pequenas empresas** ainda utilizam planilhas como principal forma de gestão, o que demonstra um grande espaço para ferramentas acessíveis e fáceis de usar.
 
-Entre os concorrentes diretos estão soluções como RD Station, Conta Azul e Omie, que oferecem CRM integrado a marketing e finanças. Já como concorrentes indiretos, destacam-se as planilhas em Excel e relatórios manuais, ainda muito usados em empresas menores.
+Entre os concorrentes diretos estão soluções como **RD Station, Conta Azul e Omie**, que oferecem CRM integrado a marketing e finanças. Já como **concorrentes indiretos**, destacam-se as planilhas em Excel e relatórios manuais, ainda muito usados em empresas menores.
 
-Nosso cliente ideal é a pequena ou média empresa do setor de comércio ou serviços, que já possui algum controle de vendas, mas enfrenta dificuldades em analisar indicadores de forma rápida e centralizada.
+Nosso **cliente ideal** é a **pequena ou média empresa** do setor de comércio ou serviços, que já possui algum controle de vendas, mas enfrenta dificuldades em analisar indicadores de forma rápida e centralizada.
 
 | Forças | Fraquezas | Oportunidades | Ameaças |
 |--------|------|----|--------|
 | Dashboards simples e interativos | Dependência de integração inicial | Crescimento da demanda por relatórios automáticos | Concorrência de grandes players consolidados|
-| Dependência de integração inicial|
+| Integração com CRMs e planilhas | Necessidade de treinamento básico | Busca por insights estratégicos sem equipe de TI | Resistência das empresas em abandonar planilhas|
+| Automação de relatórios | Menor reconhecimento de marca | | Mudanças rápidas em tecnologia |
 
 
-Integração com CRMs e planilhas
-Necessidade de treinamento básico
-Automação de relatórios
-Menor reconhecimento de marca
-Oportunidades
-Ameaças
-Crescimento da demanda por relatórios automáticos
-Concorrência de grandes players consolidados
-Busca por insights estratégicos sem equipe de TI
-Resistência das empresas em abandonar planilhas
 
 
-Mudanças rápidas em tecnologia
+
+
+
+
+
+
 
 
 
