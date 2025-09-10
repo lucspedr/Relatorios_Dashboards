@@ -21,7 +21,7 @@ Nosso **cliente ideal** é a **pequena ou média empresa** do setor de comércio
 
 ## Plano FInanceiro:
 
-### Investimento Iniciais
+### INVESTIMENTOS INICIAIS:
 **Infraestrutura (tecnologia):**
 
 - Hospedagem (GCP) → ~R$90.000/mês por 500 TB.
@@ -50,7 +50,8 @@ Nosso **cliente ideal** é a **pequena ou média empresa** do setor de comércio
 
 Total estimado do investimento inicial (com reserva de caixa) = R$200.000 - 250.000
 
-**Custo Operacional Mensal:**
+
+**CUSTO OPERACIONAL MENSAL:**
 
 - Infraestrutura: R$96.040,90
 - Equipe: R$44.000
@@ -59,7 +60,8 @@ Total estimado do investimento inicial (com reserva de caixa) = R$200.000 - 250.
 - Total sem impostos: R$146.960,90  
 - Total com impostos(~34%): 197.044,81
 
-**Projeção de Receitas:**
+
+**PROJEÇÃO DE RECEITAS:**
 
 Modelo SaaS: cobrança de uma mensalidade para cada cliente acessar o sistema, oferecendo planos mensais, como: Básico, Avançado e Premium (cada um com seu devido valor).
 
@@ -83,7 +85,8 @@ Mensalidade: de acordo com o sistema que o cliente adquiriu.
 
 Ponto de equilíbrio e retorno esperado:
 
-**Ponto de equilíbrio:**
+
+**PONTO DE EQULIBRÍO E RETORNO ESPERADO:**
 - Com custo fixo de R$ 146.960,90:
 - Plano Básico (R$ 5.000): 30 clientes
 - Plano Avançado (R$ 10.000): 15 clientes
@@ -104,7 +107,8 @@ Payback = Investimento inicial ÷ Lucro líquido mensal
 
 ROI anual: (83.000 × 12) ÷ 220.000 ≈ **454%.**
 
-**Simulações de cenários (otimista, realista, pessimista):**
+
+**SIMULAÇÕES DE CENÁRIOS (OTIMISTA, REALISTA, PESSIMISTA):**
 
 **Cenário Pessimista:**
 - 5 clientes básicos (R$ 25.000/mês)
