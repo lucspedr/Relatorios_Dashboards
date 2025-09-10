@@ -19,9 +19,36 @@ Nosso **cliente ideal** é a **pequena ou média empresa** do setor de comércio
 | Automação de relatórios | Menor reconhecimento de marca | | Mudanças rápidas em tecnologia |
 
 
+## Plano FInanceiro
 
+### Investimento Iniciais
+####**Infraestrutura (tecnologia):**
 
+- Hospedagem (GCP) → ~R$90.000/mês por 500 TB.
+- Banco de dados (MySQL) → ~R$5.500/mês.
+- Licenças de software (Power BI Premium) → R$160,30/usuário/mês - R$480,90/mês 
+- Domínio → R$60/ano 
+- SSL → Gratuito
 
+####**Desenvolvimento (time):**
+
+- Desenvolvedor full stack → R$15.000/mês.
+- Cientista/analista de dados (ETL, BI) → R$15.000/mês.
+- Engenheiro de Dados → R$14.500/mês
+- Alternativa freelancers → R$ 20.000 a R$ 40.000 para MVP
+
+####**Marketing Inicial:**
+
+- Marketing para captar primeiros clientes → R$3.300
+- Atendimento/suporte → Por conta da própria equipe.
+
+###**Administrativo:**
+
+- Studio: R$670 aluguel | Internet: R$100 | Energia: R$350 | Total: R$1.120
+- Contador: R$2.500
+- Reserva de caixa (6 meses de operação) → R$ 150.000
+
+Total estimado do investimento inicial (com reserva de caixa) = R$200.000 - 250.000
 
 
 
