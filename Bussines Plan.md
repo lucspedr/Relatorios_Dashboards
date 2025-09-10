@@ -50,7 +50,7 @@ Nosso **cliente ideal** é a **pequena ou média empresa** do setor de comércio
 
 Total estimado do investimento inicial (com reserva de caixa) = R$200.000 - 250.000
 
-**Custo Operacional Mensal:**
+###Custo Operacional Mensal:
 
 - Infraestrutura: R$96.040,90
 - Equipe: R$44.000
