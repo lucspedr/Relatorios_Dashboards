@@ -35,13 +35,16 @@ Nosso **cliente ideal** é a **pequena ou média empresa** do setor de comércio
 - Diferencial da InsightSales: Solução simples, intuitiva, especializada em vendas, com relatórios automáticos e exportação fácil.
 
 ### 3. Público-Alvo
+
 - Pequenas e médias empresas de vendas (varejo, atacado, e-commerce, serviços).
 - Donos, gestores de vendas e equipes comerciais que precisam acompanhar resultados sem depender de TI.
 
 ### 4. Posicionamento de Mercado
+
 “InsightSales: dashboards inteligentes de vendas que transformam dados em decisões rápidas.”
 
 ### 5. Objetivos de Marketing
+
 - Curto prazo (6 meses):
 - Lançar a versão inicial do sistema (MVP).
 - Gerar 1.000 leads qualificados.
