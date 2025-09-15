@@ -21,12 +21,14 @@ Nosso **cliente ideal** é a **pequena ou média empresa** do setor de comércio
 ## Plano de Marketing – Empresa: InsightSales
 
 ### 1. Identidade da Empresa
+
 - Nome fictício: InsightSales
 - Missão: Transformar dados de vendas em informações estratégicas para apoiar empresas na tomada de decisão.
 - Visão: Ser a principal plataforma de relatórios e dashboards de CRM para pequenas e médias empresas no Brasil em até 5 anos.
 - Valores: Inovação, clareza, confiabilidade, acessibilidade e foco no cliente.
 
 ### 2. Análise de Mercado
+
 - Necessidade: Muitas empresas ainda usam planilhas manuais ou relatórios dispersos, o que gera lentidão e erros nas decisões.
 - Oportunidade: Crescente demanda por Business Intelligence (BI) e dashboards de CRM acessíveis.
 - Concorrência: Power BI, Tableau, Google Data Studio — mas são complexos ou caros para pequenas e médias empresas.
