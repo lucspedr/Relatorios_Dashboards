@@ -54,6 +54,7 @@ Nosso **cliente ideal** é a **pequena ou média empresa** do setor de comércio
 - Tornar-se referência em dashboards acessíveis para PMEs.
 
 ### 6. Estratégias de Marketing
+
 - Produto (Product):
 - Módulo inicial: Vendas (funil, taxa de conversão, ranking de vendedores, ticket médio).
 - Interface intuitiva com dashboards interativos e exportação em PDF/Excel.
