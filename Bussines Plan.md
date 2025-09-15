@@ -18,6 +18,68 @@ Nosso **cliente ideal** é a **pequena ou média empresa** do setor de comércio
 | Integração com CRMs e planilhas | Necessidade de treinamento básico | Busca por insights estratégicos sem equipe de TI | Resistência das empresas em abandonar planilhas|
 | Automação de relatórios | Menor reconhecimento de marca | | Mudanças rápidas em tecnologia |
 
+## Plano de Marketing – Empresa: InsightSales
+
+### 1. Identidade da Empresa
+- Nome fictício: InsightSales
+- Missão: Transformar dados de vendas em informações estratégicas para apoiar empresas na tomada de decisão.
+- Visão: Ser a principal plataforma de relatórios e dashboards de CRM para pequenas e médias empresas no Brasil em até 5 anos.
+- Valores: Inovação, clareza, confiabilidade, acessibilidade e foco no cliente.
+
+### 2. Análise de Mercado
+- Necessidade: Muitas empresas ainda usam planilhas manuais ou relatórios dispersos, o que gera lentidão e erros nas decisões.
+- Oportunidade: Crescente demanda por Business Intelligence (BI) e dashboards de CRM acessíveis.
+- Concorrência: Power BI, Tableau, Google Data Studio — mas são complexos ou caros para pequenas e médias empresas.
+- Diferencial da InsightSales: Solução simples, intuitiva, especializada em vendas, com relatórios automáticos e exportação fácil.
+
+### 3. Público-Alvo
+- Pequenas e médias empresas de vendas (varejo, atacado, e-commerce, serviços).
+- Donos, gestores de vendas e equipes comerciais que precisam acompanhar resultados sem depender de TI.
+
+### 4. Posicionamento de Mercado
+“InsightSales: dashboards inteligentes de vendas que transformam dados em decisões rápidas.”
+
+### 5. Objetivos de Marketing
+- Curto prazo (6 meses):
+- Lançar a versão inicial do sistema (MVP).
+- Gerar 1.000 leads qualificados.
+- Fechar os 50 primeiros clientes pagantes.
+- Médio prazo (1 ano):
+- Ampliar os módulos (marketing e atendimento).
+- Tornar-se referência em dashboards acessíveis para PMEs.
+
+### 6. Estratégias de Marketing
+- Produto (Product):
+- Módulo inicial: Vendas (funil, taxa de conversão, ranking de vendedores, ticket médio).
+- Interface intuitiva com dashboards interativos e exportação em PDF/Excel.
+- Integração com CRM popular (HubSpot, Pipedrive, RD Station).
+- Preço (Price):
+- Plano básico acessível para pequenas empresas (ex: R$ 99/mês).
+- Plano avançado para equipes maiores com relatórios ilimitados (ex: R$ 249/mês).
+- Teste grátis de 14 dias.
+- Praça (Place):
+- 100% online (SaaS – Software as a Service).
+- Website com área de login.
+- Atendimento remoto (chat e e-mail).
+- Promoção (Promotion):
+- Marketing de Conteúdo: blog e e-books sobre vendas e métricas.
+- Redes Sociais: LinkedIn, Instagram e YouTube (posts e vídeos mostrando os dashboards).
+- Parcerias com consultores de vendas e agências de marketing.
+- Campanhas de anúncios pagos no Google Ads e LinkedIn Ads para gestores comerciais.
+- Estratégia de prova social: depoimentos de clientes e cases de sucesso.
+
+### 7. Plano de Ação
+- Mês 1-2: Criação da identidade visual, site institucional e presença nas redes sociais.
+- Mês 3: Lançamento do MVP e início da campanha de geração de leads.
+- Mês 4-6: Webinars e workshops online sobre métricas de vendas.
+- Mês 6 em diante: Expansão dos módulos e fortalecimento da marca no mercado.
+
+### 8. Métricas de Sucesso
+- Número de leads gerados por mês.
+- Taxa de conversão de leads em clientes.
+- Engajamento nas redes sociais.
+- Churn (cancelamento).
+- Lifetime Value (LTV) dos clientes
 
 ## Plano FInanceiro:
 
