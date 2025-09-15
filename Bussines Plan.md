@@ -75,12 +75,14 @@ Nosso **cliente ideal** é a **pequena ou média empresa** do setor de comércio
 - Estratégia de prova social: depoimentos de clientes e cases de sucesso.
 
 ### 7. Plano de Ação
+
 - Mês 1-2: Criação da identidade visual, site institucional e presença nas redes sociais.
 - Mês 3: Lançamento do MVP e início da campanha de geração de leads.
 - Mês 4-6: Webinars e workshops online sobre métricas de vendas.
 - Mês 6 em diante: Expansão dos módulos e fortalecimento da marca no mercado.
 
 ### 8. Métricas de Sucesso
+
 - Número de leads gerados por mês.
 - Taxa de conversão de leads em clientes.
 - Engajamento nas redes sociais.
