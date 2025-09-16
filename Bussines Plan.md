@@ -195,5 +195,93 @@ ROI anual: (83.000 × 12) ÷ 220.000 ≈ **454%.**
 - Payback em menos de 1 mês após atingir essa base.
 
 
+## Cenários e Riscos:
 
+### Projeto de Dashboards e Integração de Dados
+
+A matriz de risco é uma ferramenta que auxilia na priorização dos riscos do projeto. Ela
+considera a **probabilidade de ocorrência** e o **impacto nos resultados**. Dessa forma, é
+possível identificar os pontos mais críticos e definir estratégias de mitigação adequadas.
+
+### Riscos Técnicos:
+
+### Falhas na integração de dados
+
+Esse risco apresenta **alta probabilidade** devido à diversidade de formatos e sistemas,
+como planilhas e CRMs distintos. O impacto também é **alto**, pois a integração é a base para
+o funcionamento do dashboard. Portanto, é essencial adotar ferramentas de ETL com
+conectores prontos, além de testar continuamente os scripts com dados reais.
+
+### Qualidade dos dados
+
+Há uma **probabilidade média-alta** de os dados estarem incompletos ou inconsistentes, o
+que pode gerar **alto impacto** na credibilidade dos insights. Em contrapartida, esse risco
+pode ser reduzido por meio de validações automáticas, limpeza de dados e alertas de
+anomalias.
+
+### Desempenho da API ou do banco de dados
+
+O risco de lentidão é **médio**, mas o impacto é **alto**, especialmente quando há consultas em
+grandes volumes. Além disso, problemas de performance podem comprometer a
+experiência do usuário. Como alternativa, recomenda-se anexar colunas-chave, aplicar
+cache e realizar testes de carga preventivos.
+
+### Bugs nos dashboards ou na API
+
+A probabilidade é **média**, já que falhas de software são comuns em fases iniciais. O
+impacto, entretanto, é **médio**, pois afeta a usabilidade, mas não inviabiliza totalmente o
+sistema. Para mitigar, é importante adotar testes automatizados e contar com feedback
+contínuo de usuários.
+
+### Falta de atualização automática
+
+Esse risco tem **probabilidade média** e **alto impacto**, pois dashboards desatualizados
+perdem valor estratégico. Portanto, a mitigação deve priorizar automação com
+agendamentos, como cron jobs ou Airflow, e monitoramento constante dos logs de
+execução.
+
+### Riscos de Mercado:
+
+### Baixa adesão dos usuários
+
+A probabilidade é **alta**, principalmente se os dashboards não forem intuitivos ou não
+refletirem as necessidades do público. O impacto também é **alto**, pois sem adesão o projeto
+perde relevância. Assim, recomenda-se realizar entrevistas prévias e priorizar interfaces
+simples e orientadas ao valor entregue.
+
+### Concorrência com ferramentas já existentes
+
+Esse risco possui **probabilidade média** e **impacto médio-alto**, dado que soluções
+robustas como Power BI ou Tableau já são consolidadas no mercado. Em contrapartida,
+diferenciais competitivos, como personalização e baixo custo, podem minimizar essa
+ameaça.
+
+### Mudança de escopo por parte da empresa
+A probabilidade é **média**, mas o impacto é **alto**, pois alterações bruscas nos KPIs podem
+desalinhar o projeto. Portanto, é essencial documentar requisitos, adotar metodologias
+ágeis e realizar entregas incrementais para reduzir perdas.
+
+### Matriz de Probabilidade x Impacto
+
+Risco | Probabilidade |  Impacto  | Nível de Prioridade|
+|-------| -------| ------ | ------- |
+| Falhas na integração de dados | Alta | Alto | Crítico|
+| Qualidade dos dados | Média-Alta | Alto | Alto|
+| Desempenho da API/banco de dados | Média | Alto | Alto
+| Bugs nos dashboards/API | Média | Médio | Médio
+| Falta de atualização automática | Média | Alto | Alto
+| Baixa adesão dos usuários | Alta | Alto | Crítico
+| Concorrência com ferramentas prontas | Média | Médio | Médio
+|Mudança de escopo | Média | Alto | Alto
+
+### Conclusão
+
+A análise demonstra que os riscos mais críticos estão relacionados à **integração de dados**
+e à **baixa adesão dos usuários**. Ambos apresentam alta probabilidade e alto impacto,
+demandando ações preventivas desde o início do projeto. Além disso, riscos de médio nível,
+como bugs e concorrência, não devem ser negligenciados, pois podem comprometer a
+evolução do sistema em longo prazo.
+Portanto, ao combinar mitigação técnica (ETL, testes automatizados e automação de
+processos) com ações estratégicas (validação com usuários, entregas incrementais e
+diferenciais competitivos), o projeto terá maior chance de sucesso e sustentabilidade.
 
