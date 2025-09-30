@@ -1,4 +1,4 @@
-## Diagrama de Contexto (C1)
+## Diagrama de Contexto - C1
 
 O usuário final utiliza o Sistema CRM para criar gráficos e dashbords. Os dados de clientes e vendas, contidos em planilhas, são exportados para o sistema, que processa as informações e gera os gráficos, os quais são enviados para análise e ajustes caso haja inconsistências ou divergências. Após a análise, o usuário final visualiza um rascunho do gráfico e pode aprová-lo ou solicitar modificações. 
 
