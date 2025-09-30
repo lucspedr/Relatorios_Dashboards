@@ -4,8 +4,3 @@ O usuário final utiliza relatórios e dashboards do CRM para criar gráficos e 
 
 Com a aprovação, a equipe de análise envia o gráfico finalizado para o time responsável, que utiliza as informações para definir estratégias e estabelecer objetivos que apoiem a tomada de decisões. Além disso, o time fornece sugestões de melhorias ao usuário final, garantindo que os próximos gráficos ou dashboards sejam ainda mais eficientes e assertivos.
 
-```mermaid
-graph TD
-
-Usuario Final --> |Utiliza (CRM) para criação de gráficos e dashbords| Sistema [Exportar Dados]
-
