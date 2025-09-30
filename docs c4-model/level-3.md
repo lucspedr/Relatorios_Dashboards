@@ -8,7 +8,7 @@ O backend também integra-se ao Banco de Dados para consultar, inserir e atualiz
 flowchart TD
     API["API Backend"]
     Aut["Autenticação e Autorização"]
-    Web["Web App"]
+    Web["Web App Gráficos e Dashbords"]
     Contro["Controladores de Dados"]
     Serv["Serviços de Processamento de Dados"]
     Intre["Integração com Banco de Dados"]
@@ -16,4 +16,19 @@ flowchart TD
     Bi["Integração com Módulo de BI"]
     Modulo["Módulo de BI"]
     Log["Logs e Monitoramento"]
+
+    API -->|Responsável por processar dados, gerenciar acessos e integrar todos os contêineres| Aut
+    Aut -->|Gerência login, permissões e tokens de acesso do Web App.| Web
+    Aut -->|Garante segurança e controle de acesso aos dados| Contro
+    Contro -->|Recebem requisições do Web App e direcionam para os serviços corretos| Web
+    Contro -->|Orquestram o fluxo de dados dentro do backend| Serv
+    Serv -->|Realizam limpeza, transformação e agregação de dados ETL| Intre
+    Intre -->|Consulta, insere e atualiza clientes, vendas e KPIs no MySQL| Banco
+    Serv -->|Preparam informações para dashboards e relatórios| Bi
+    Bi -->|Envia dados processados para geração automática de relatórios e gráficos| Modulo
+    Log -->|Registra atividades e erros do sistema| Bi
+    Log -->|Registra atividades e erros do sistema| Serv
+    Log -->|Registra atividades e erros do sistema| Contro
+    Log -->|Registra atividades e erros do sistema| Aut
+
 
