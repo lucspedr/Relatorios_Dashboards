@@ -19,3 +19,10 @@ flowchart TD
     API -->|Autentica usuários e integra sistemas| Colaborador
     Banco -->|Armaneza cliente, vendas e KPIs, fonte central para consultas| Bi
     Bi -->|Gera relatórios e gráficos a partir do banco; envia visualizações para o Web App.| Colaborador
+
+    %% Estilos
+    style Colaborador fill:#1E3A8A,stroke:#0F1F4D,stroke-width:2px,color:#ffffff
+    style App fill:#A3C4F3,stroke:#5B8BD6,stroke-width:2px,color:#000000
+    style API fill:#A3C4F3,stroke:#5B8BD6,stroke-width:2px,color:#000000
+    style Bi fill:#A3C4F3,stroke:#5B8BD6,stroke-width:2px,color:#000000
+    style Banco fill:#A3C4F3,stroke:#5B8BD6,stroke-width:2px,color:#000000
