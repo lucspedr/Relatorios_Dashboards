@@ -31,4 +31,14 @@ flowchart TD
     Log -->|Registra atividades e erros do sistema| Contro
     Log -->|Registra atividades e erros do sistema| Aut
 
-
+    %% Estilos
+    style API fill:#1E3A8A,stroke:#0F1F4D,stroke-width:3px,color:#ffffff
+    style Aut fill:#A3C4F3,stroke:#5B8BD6,stroke-width:2px,color:#000000
+    style Web fill:#A3C4F3,stroke:#5B8BD6,stroke-width:2px,color:#000000
+    style Contro fill:#A3C4F3,stroke:#5B8BD6,stroke-width:2px,color:#000000
+    style Serv fill:#A3C4F3,stroke:#5B8BD6,stroke-width:2px,color:#000000
+    style Intre fill:#A3C4F3,stroke:#5B8BD6,stroke-width:2px,color:#000000
+    style Banco fill:#A3C4F3,stroke:#5B8BD6,stroke-width:2px,color:#000000
+    style Bi fill:#A3C4F3,stroke:#5B8BD6,stroke-width:2px,color:#000000
+    style Modulo fill:#A3C4F3,stroke:#5B8BD6,stroke-width:2px,color:#000000
+    style Log fill:#A3C4F3,stroke:#5B8BD6,stroke-width:2px,color:#000000
