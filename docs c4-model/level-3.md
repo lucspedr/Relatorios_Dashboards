@@ -6,4 +6,14 @@ O backend também integra-se ao Banco de Dados para consultar, inserir e atualiz
 
 ```mermaid
 flowchart TD
- 
+    API["API Backend"]
+    Aut["Autenticação e Autorização"]
+    Web["Web App"]
+    Contro["Controladores de Dados"]
+    Serv["Serviços de Processamento de Dados"]
+    Intre["Integração com Banco de Dados"]
+    Banco[("Banco de Dados MySQL")]
+    Bi["Integração com Módulo de BI"]
+    Modulo["Módulo de BI"]
+    Log["Logs e Monitoramento"]
+
