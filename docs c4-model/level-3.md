@@ -4,3 +4,6 @@ O API Backend (Python/Node.js) é responsável por gerenciar toda a lógica do s
 
 O backend também integra-se ao Banco de Dados para consultar, inserir e atualizar informações de clientes, vendas e KPIs, além de enviar dados processados ao Módulo de BI para gerar gráficos e relatórios automáticos. Logs e monitoramento registram todas as operações, permitindo auditoria e suporte à manutenção. Essa estrutura garante que os dados cheguem organizados e consistentes, entregando insights estratégicos em tempo real para usuários e equipes de decisão.
 
+```mermaid
+flowchart TD
+ 
