@@ -24,3 +24,12 @@ flowchart TD
     Recebimento -->|O time recebe o gráfico e cria as suas estratégias para ajudar nas tomadas de decisão.| FeedBack
     FeedBack -->|Feedback e melhorias| Colaborador
     Recebimento -->|Envia o Gráfico para o time| Equipe
+
+    %% Estilo azul
+    style Colaborador fill:#1E3A8A,stroke:#0F1F4D,stroke-width:2px,color:#ffffff
+    style CRM fill:#A3C4F3,stroke:#5B8BD6,stroke-width:2px,color:#000000
+    style Planilhas fill:#A3C4F3,stroke:#5B8BD6,stroke-width:2px,color:#000000
+    style InsightSales fill:#A3C4F3,stroke:#5B8BD6,stroke-width:2px,color:#000000
+    style Equipe fill:#A3C4F3,stroke:#5B8BD6,stroke-width:2px,color:#000000
+    style Recebimento fill:#A3C4F3,stroke:#5B8BD6,stroke-width:2px,color:#000000
+    style FeedBack fill:#A3C4F3,stroke:#5B8BD6,stroke-width:2px,color:#000000
