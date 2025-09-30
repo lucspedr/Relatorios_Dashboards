@@ -21,6 +21,6 @@ flowchart TD
     InsightSales -->|Rascunho de gráfico| Colaborador
     Colaborador -->|Solicita ajustes ou aprova| InsightSales
     InsightSales -->|Gráfico final Aprovado| Equipe
-    Recebimento -->|A equipe recebe o gráfico e cria as suas estratégias para ajudar nas tomadas de decisão.| FeedBack
+    Recebimento -->|O time recebe o gráfico e cria as suas estratégias para ajudar nas tomadas de decisão.| FeedBack
     FeedBack -->|Feedback e melhorias| Colaborador
     Recebimento -->|Envia o Gráfico para o time| Equipe
