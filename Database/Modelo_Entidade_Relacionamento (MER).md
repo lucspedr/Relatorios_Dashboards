@@ -70,6 +70,10 @@ Os relacionamentos garantem rastreabilidade, colaboração e controle de qualida
 
 ## Regras de Negócio
 
+Todo usuário deve ter perfil definido (analista, gestor ou usuário final) e status ativo ou inativo. Clientes devem ter CPF/CNPJ ou e-mail únicos e podem estar ligados a várias vendas e relatórios. Vendas devem estar vinculadas a clientes existentes e ter status aberto, fechado ou cancelado. Cada relatório gera timestamp, pertence a um usuário e pode gerar gráficos, estratégias e logs, além de se relacionar a múltiplos clientes e usuários. 
+
+Gráficos pertencem a relatórios e têm status rascunho ou final, podendo receber análises, solicitações e opiniões. Análises só podem ser feitas por analistas ou gestores, vinculadas a gráficos e usuários, com status aprovado, pendente ou rejeitado. Solicitações e opiniões vinculam gráficos e usuários, com comentário obrigatório e status controlado. Estratégias devem estar associadas a relatórios, registrando descrição, responsável e data. Logs registram todas ações importantes, falhas e processamentos, vinculados a relatórios existentes.
+
 #### Usuário
 - Deve ter perfil definido (analista, gestor, usuario_final).
 - Status limitado a **ativo** ou **inativo**.
