@@ -1,96 +1,66 @@
-# 🧩 Documento de Normalização – Sistema de CRM e Dashboards
+# Justificativa de Normalização
 
-## Introdução
-O processo de normalização foi aplicado ao modelo de dados do sistema de CRM, cujo objetivo é integrar informações de planilhas e gerar relatórios e gráficos interativos. A normalização tem como meta eliminar redundâncias, garantir integridade referencial e otimizar o armazenamento e a manipulação dos dados, sem comprometer a performance das consultas e relatórios analíticos.
+O processo de normalização foi aplicado ao modelo de dados do sistema de CRM, cujo objetivo é integrar informações de planilhas e gerar relatórios e gráficos interativos. 
 
----
+A normalização tem como meta eliminar redundâncias, garantir integridade referencial e otimizar o armazenamento e a manipulação dos dados, sem comprometer a performance das consultas e relatórios analíticos.
 
-## 1ª Forma Normal (1FN)
+### 1ª Forma Normal (1FN)
 
-### Definição
+#### Definição
 Uma tabela está na Primeira Forma Normal (1FN) quando:
-- Todos os atributos contêm apenas valores atômicos (não divisíveis);
 - Não há grupos repetitivos ou colunas multivaloradas;
 - Cada registro é identificado unicamente por uma chave primária (PK).
 
-### Aplicação no projeto
+#### Aplicação no projeto
 Todas as entidades foram estruturadas para respeitar a 1FN. Cada campo contém um valor único e indivisível:
 - Em **Cliente**, o campo `telefone` guarda apenas um número de telefone por registro (caso haja múltiplos contatos, são armazenados em uma tabela separada futuramente).
 - Em **Venda**, o atributo `produto_servico` contém apenas uma descrição por venda.
 - Em **Usuário**, o campo `perfil` armazena um único valor entre (`analista`, `gestor`, `usuario_final`).
 
-### Exemplo
-**Situação não normalizada:**
-```
-Cliente(id, nome, email, telefones)
-```
-**Correção (1FN aplicada):**
-```
-Cliente(id_cliente, nome, email, telefone)
-```
-Cada linha agora contém um único telefone por cliente, evitando listas dentro de campos.
+#### Exemplo
+**Antes**: a tabela de Cliente tinha um campo chamado telefones que guardava vários números dentro de um mesmo registro.
 
----
+**Depois:** o campo passou a se chamar telefone, armazenando apenas um número por linha, garantindo que cada valor seja atômico e não repetitivo.
+
 
 ## 2ª Forma Normal (2FN)
 
-### Definição
+#### Definição
 Uma tabela está na Segunda Forma Normal (2FN) quando:
 - Já está na 1FN;
 - E todos os atributos não-chave dependem totalmente da chave primária, e não apenas de parte dela (ou seja, elimina dependências parciais).
 
-### Aplicação no projeto
+#### Aplicação no projeto
 As tabelas compostas foram revisadas para garantir que não existam dependências parciais.  
 No projeto, as tabelas possuem chaves simples (campos como `id_usuario`, `id_cliente`, etc.), logo não havia dependências parciais diretas.  
 
 Um exemplo mais visível de aplicação é nas relações N:N, onde foram criadas tabelas intermediárias (como `relatorio_cliente` e `relatorio_usuario`), garantindo que:
 - As informações sobre o relacionamento dependem da combinação completa das chaves estrangeiras (`id_relatorio`, `id_cliente`), e não de uma delas isoladamente.
 
-### Exemplo
-**Situação não normalizada:**
-```
-Relatorio_Cliente(id_relatorio, id_cliente, nome_cliente)
-```
-Aqui, `nome_cliente` depende apenas de `id_cliente` → violação da 2FN.
+#### Exemplo
+**Antes:** na tabela Relatorio_Cliente, além das chaves id_relatorio e id_cliente, havia também o campo nome_cliente, que dependia apenas de id_cliente.
 
-**Correção (2FN aplicada):**
-```
-Relatorio_Cliente(id_relatorio, id_cliente)
-Cliente(id_cliente, nome_cliente, ...)
-```
-O nome do cliente é armazenado na entidade Cliente, eliminando redundância.
+**Depois:** o campo nome_cliente foi removido dessa tabela e mantido apenas na tabela Cliente, evitando redundância e garantindo que todos os atributos dependam da chave completa do relacionamento.
 
----
 
 ## 3ª Forma Normal (3FN)
 
-### Definição
+#### Definição
 Uma tabela está na Terceira Forma Normal (3FN) quando:
 - Já está na 2FN;
 - E não há dependências transitivas, ou seja, nenhum atributo não-chave depende de outro atributo não-chave.
 
-### Aplicação no projeto
+#### Aplicação no projeto
 As entidades foram revisadas para remover dependências transitivas.  
 Exemplo:
 - Em **Usuário**, `perfil` e `status` dependem apenas do id_usuario.
 - Em **Venda**, atributos como `valor`, `data` e `status` dependem diretamente do id_venda e não de id_cliente.
 - Em **Relatório**, `titulo` e `descricao` dependem apenas do id_relatorio, e não do usuário criador.
 
-### Exemplo
-**Situação não normalizada:**
-```
-Venda(id_venda, id_cliente, nome_cliente, valor)
-```
-Aqui, `nome_cliente` depende de `id_cliente`, não de `id_venda` → dependência transitiva.
+#### Exemplo
+**Antes:** a tabela Venda incluía o campo nome_cliente, que dependia do id_cliente e não da chave principal id_venda.
 
-**Correção (3FN aplicada):**
-```
-Venda(id_venda, id_cliente, valor)
-Cliente(id_cliente, nome_cliente)
-```
-Elimina-se a redundância, pois o nome do cliente é recuperado por meio da chave estrangeira.
-
----
+**Depois:** o nome do cliente passou a ser consultado diretamente na tabela Cliente, deixando em Venda apenas informações que dependem exclusivamente da própria venda, como valor, data e status.
 
 ## Comparativo “Antes e Depois da Normalização”
 
