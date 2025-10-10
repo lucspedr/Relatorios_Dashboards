@@ -5,7 +5,6 @@ O processo de normalização foi aplicado ao modelo de dados do sistema de CRM, 
 A normalização tem como meta eliminar redundâncias, garantir integridade referencial e otimizar o armazenamento e a manipulação dos dados, sem comprometer a performance das consultas e relatórios analíticos.
 
 ### 1ª Forma Normal (1FN)
-
 #### Definição
 Uma tabela está na Primeira Forma Normal (1FN) quando:
 - Não há grupos repetitivos ou colunas multivaloradas;
@@ -22,9 +21,7 @@ Todas as entidades foram estruturadas para respeitar a 1FN. Cada campo contém u
 
 **Depois:** o campo passou a se chamar telefone, armazenando apenas um número por linha, garantindo que cada valor seja atômico e não repetitivo.
 
-
 ## 2ª Forma Normal (2FN)
-
 #### Definição
 Uma tabela está na Segunda Forma Normal (2FN) quando:
 - Já está na 1FN;
@@ -42,9 +39,7 @@ Um exemplo mais visível de aplicação é nas relações N:N, onde foram criada
 
 **Depois:** o campo nome_cliente foi removido dessa tabela e mantido apenas na tabela Cliente, evitando redundância e garantindo que todos os atributos dependam da chave completa do relacionamento.
 
-
 ## 3ª Forma Normal (3FN)
-
 #### Definição
 Uma tabela está na Terceira Forma Normal (3FN) quando:
 - Já está na 2FN;
@@ -72,8 +67,6 @@ Exemplo:
 | Log_Processamento | Poderia ter tabela extra para tipo de ação | Mantido simples por performance |
 | Usuario | Poderia separar tabela de perfis e status | Mantido com ENUM por simplicidade |
 
----
-
 ## Exceções e Desnormalização Controlada
 
 Apesar da aplicação completa das três primeiras formas normais, alguns pontos de desnormalização controlada foram adotados por motivos de performance e simplicidade:
@@ -87,8 +80,6 @@ Apesar da aplicação completa das três primeiras formas normais, alguns pontos
 
 3. **Valores Descritivos em Relatórios e Estratégias**  
    - Campos como `descricao` e `comentario` foram mantidos dentro das tabelas principais (Relatório, Estratégia, Feedback), mesmo sendo textuais e potencialmente repetitivos, para facilitar consultas diretas e evitar complexidade excessiva.
-
----
 
 ## Conclusão
 O processo de normalização garantiu que o modelo de dados do sistema de CRM:
