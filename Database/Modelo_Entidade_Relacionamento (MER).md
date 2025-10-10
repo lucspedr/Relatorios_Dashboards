@@ -33,25 +33,16 @@ O modelo contempla todo o ciclo de vida dos dados: importação, análise, gera�
 
 ## Relacionamentos e Cardinalidades
 
-**Usuário** – Cada Usuário pertence a um único Perfil (N:1). Pode criar vários Relatórios (1:N). Pode realizar várias Análises (1:N) e enviar várias Solicitações (1:N). Pode dar várias Opiniões (1:N).
-
-**Cliente** – Um Cliente pode ter várias Vendas (1:N). Pode estar associado a vários Relatórios via tabela intermediária (N:N).
-
-**Venda** – Cada Venda pertence a um Cliente (N:1).
-
-**Relatório** – Um Relatório é criado por um Usuário (N:1). Pode ter vários Gráficos (1:N). Pode gerar várias Estratégias (1:N). Pode estar associado a vários Clientes e Usuários via tabela intermediária (N:N).
-
-**Gráfico** – Cada Gráfico pertence a um Relatório (N:1). Pode ter várias Análises (1:N) e várias Solicitações (1:N). Pode receber várias Opiniões (1:N)
-
-**Análise** – Cada Análise pertence a um Gráfico e a um Usuário (N:1).
-
-**Solicitação** – Cada Solicitação pertence a um Gráfico e a um Usuário (N:1).
-
-**Estratégia** – Cada Estratégia pertence a um Relatório (N:1).
-
-**Opinião** – Cada Opinião pertence a um Gráfico e a um Usuário (N:1).
-
-**Log_Processamento** – Cada Log pertence a um Relatório (N:1).
+- **Usuário** – Cada Usuário pertence a um único Perfil (N:1). Pode criar vários Relatórios (1:N). Pode realizar várias Análises (1:N) e enviar várias Solicitações (1:N). Pode dar várias Opiniões (1:N).
+- **Cliente** – Um Cliente pode ter várias Vendas (1:N). Pode estar associado a vários Relatórios via tabela intermediária (N:N).
+- **Venda** – Cada Venda pertence a um Cliente (N:1).
+- **Relatório** – Um Relatório é criado por um Usuário (N:1). Pode ter vários Gráficos (1:N). Pode gerar várias Estratégias (1:N). Pode estar associado a vários Clientes e Usuários via tabela intermediária (N:N).
+- **Gráfico** – Cada Gráfico pertence a um Relatório (N:1). Pode ter várias Análises (1:N) e várias Solicitações (1:N). Pode receber várias Opiniões (1:N)
+- **Análise** – Cada Análise pertence a um Gráfico e a um Usuário (N:1).
+- **Solicitação** – Cada Solicitação pertence a um Gráfico e a um Usuário (N:1).
+- **Estratégia** – Cada Estratégia pertence a um Relatório (N:1).
+- **Opinião** – Cada Opinião pertence a um Gráfico e a um Usuário (N:1).
+- **Log_Processamento** – Cada Log pertence a um Relatório (N:1).
 
 | Relacionamento | Tipo | Cardinalidade | Justificativa |
 | ---------------| ---- | ------------- | ------------- |
