@@ -23,7 +23,7 @@ O modelo contempla todo o ciclo de vida dos dados — da importação, análise 
 
 | Entidade              | Atributos|
 | --------------------- | -------- |
-| **Usuário**           | id_usuario (PK, int), nome (varchar), email (varchar UNIQUE), senha_hash (varchar), perfil (enum: analista, gestor, usuario_final), status (enum: ativo, inativo)|
+| **Usuário**           | id_usuario (PK, int), nome (varchar), email (varchar UNIQUE), senha (varchar), perfil (enum: analista, gestor, usuario_final), status (enum: ativo, inativo)|
 | **Cliente**           | id_cliente (PK, int), nome (varchar NOT NULL), email (varchar), telefone (varchar), empresa (varchar), status (enum: ativo, inativo)|
 | **Venda**             | id_venda (PK, int), id_cliente (FK), produto_servico (varchar), valor (decimal(10,2)), data (date), status (enum: aberto, fechado, cancelado)|
 | **Relatório**         | id_relatorio (PK, int), id_usuario_criador (FK), titulo (varchar), descricao (text), data_criacao (timestamp DEFAULT CURRENT_TIMESTAMP)|
