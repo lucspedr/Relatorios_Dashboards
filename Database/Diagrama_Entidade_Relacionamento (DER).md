@@ -17,6 +17,8 @@ O modelo contempla todo o ciclo de vida dos dados — da importação, análise 
 - **Feedback** – Guarda comentários e sugestões de melhoria feitos pelos usuários sobre os gráficos e relatórios.
 - **Log_Processamento** – Registra o histórico de importações e processamentos de planilhas.
 
+<img width="1874" height="1230" alt="Image" src="https://github.com/user-attachments/assets/7a474b6a-b907-4dc7-9feb-9a42a3e6e5f0" />
+
 ### Atributos
 
 | Entidade              | Atributos|
