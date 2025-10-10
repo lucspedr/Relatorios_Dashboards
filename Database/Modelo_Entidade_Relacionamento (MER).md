@@ -6,15 +6,15 @@ O modelo contempla todo o ciclo de vida dos dados: importação, análise, gera�
 
 ### Entidades e Atributos
 
-| Entidade              | Atributos                                                                                                                   | Descrição                                                                               |
-| --------------------- | --------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
-| **Usuário**           | `id_usuario` (PK), `nome`, `email`, `senha`, `perfil`, `status`                                                             | Guarda dados dos usuários do sistema, como analistas, gestores e usuários finais.       |
-| **Cliente**           | `id_cliente` (PK), `nome`, `email`, `telefone`, `empresa`, `status`                                                         | Cadastro de clientes e informações importadas do CRM.                                   |
-| **Venda**             | `id_venda` (PK), `id_cliente` (FK), `produto_servico`, `valor`, `dados`, `status`                                           | Registra vendas, leads e negociações associadas a clientes.                             |
-| **Relatório**         | `id_relatorio` (PK), `id_usuario_criador` (FK), `titulo`, `descricao`, `data_criacao`                                       | Armazena informações dos relatórios criados pelo sistema.                               |
-| **Gráfico**           | `id_grafico` (PK), `id_relatorio` (FK), `tipo_grafico`, `status`, `data_criacao`                                            | Guarda gráficos gerados a partir dos relatórios para análise visual.                    |
-| **Análise**           | `id_analise` (PK), `id_grafico` (FK), `id_usuario` (FK), `status_aprovacao`, `comentarios`, `data_analise`                  | Registro do processo de verificação e validação dos gráficos.                           |
-| **Solicitação**       | `id_solicitacao` (PK), `id_grafico` (FK), `id_usuario` (FK), `tipo_solicitacao`, `status`, `comentario`, `data_solicitacao` | Controle de solicitações de alteração ou configuração feitas pelos usuários finais.     |
-| **Estratégia**        | `id_estrategia` (PK), `id_relatorio` (FK), `descricao`, `responsavel`, `data_execucao`                                      | Registra estratégias e objetivos baseados nos relatórios e gráficos finais.             |
-| **Opinião**           | `id_feedback` (PK), `id_grafico` (FK), `id_usuario` (FK), `comentario`, `data_feedback`                                     | Armazena comentários e sugestões de melhorias dos usuários sobre gráficos e relatórios. |
-| **Log_Processamento** | `id_log` (PK), `id_relatorio` (FK), `acao`, `status`, `data_hora`                                                           | Mantém histórico de limitações e processamentos das planilhas.                          |
+| Entidade              | Atributos|
+| --------------------- | -------- |
+| **Usuário**           | id_usuario (PK), nome, email, senha, perfil (analista, gestor, usuario_final), status (ativo, inativo)|
+| **Cliente**           | id_cliente (PK), nome, email, telefone, empresa, status (ativo, inativo)
+| **Venda**             | id_venda (PK), id_cliente (FK), produto_servico, valor, data, status (aberto, fechado, cancelado)|
+| **Relatório**         | id_relatorio (PK), id_usuario_criador (FK), titulo, descricao, data_criacao|
+| **Gráfico**           | id_grafico (PK), id_relatorio (FK), tipo_grafico, status (rascunho, final), data_criacao|
+| **Análise**           | id_analise (PK), id_grafico (FK), id_usuario (FK), status_aprovacao (aprovado, pendente, rejeitado), comentarios, data_analise|
+| **Solicitação**       | id_solicitacao (PK), id_grafico (FK), id_usuario (FK), tipo_solicitacao, status (pendente, concluido), comentario, data_solicitacao|
+| **Estratégia**        | id_estrategia (PK, int), id_relatorio (FK), descricao, responsavel, data_execucao|
+| **Feedback**          | id_feedback (PK), id_grafico (FK), id_usuario (FK), comentario, data_feedback|
+| **Log_Processamento** | id_log (PK), id_relatorio (FK), acao, status, data_hora|
