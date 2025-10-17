@@ -11,7 +11,7 @@ Como todas as tabelas possuem **chaves primárias simples**, não existem depend
 Cada atributo não chave depende totalmente da chave primária da tabela correspondente.
 
 ### **3ª Forma Normal (3FN):**
-Os atributos não chave *dependem diretamente da chave primária**, dessa forma, não há dependências transitivas.
+Os atributos não chave **dependem diretamente da chave primária**, dessa forma, não há dependências transitivas.
 
 Exemplo: na tabela **Cliente**, os campos **nomes**, **email**, **telefone** e **empresa** dependem exclusivamente de `id_cliente`.
 
