@@ -1,3 +1,23 @@
-<img width="1874" height="1230" alt="Image" src="https://github.com/user-attachments/assets/7a474b6a-b907-4dc7-9feb-9a42a3e6e5f0" />
+Link: https://www.figma.com/proto/VG1BdlPmN8JcFL6rpfKY1m/Frontend----Porjeto?node-id=4-301&starting-point-node-id=4%3A301
 
-https://www.figma.com/design/VG1BdlPmN8JcFL6rpfKY1m/Frontend----Porjeto?node-id=0-1&m=dev&t=wWM8z50FZCQ53BC9-1
+![Image](https://github.com/user-attachments/assets/aadbe30f-4935-4019-95c2-afbf6d75efc2)
+![Image](https://github.com/user-attachments/assets/dac3d34d-77d0-4733-95ff-8712f8a5910e)
+![Image](https://github.com/user-attachments/assets/691eab34-cddd-41b2-a4c1-b98c44deaec4)
+![Image](https://github.com/user-attachments/assets/0b594810-f520-4a25-aeba-a7e9d993d138)
+![Image](https://github.com/user-attachments/assets/1f89a07d-7dd6-4773-b997-d95b74ec714b)
+![Image](https://github.com/user-attachments/assets/875258df-ffb9-44df-a5eb-132bc28f010c)
+![Image](https://github.com/user-attachments/assets/bfbe11b5-72a5-4f23-9780-fb46b9dc1259)
+![Image](https://github.com/user-attachments/assets/133e3f66-6d1f-436e-924b-4f6259ea174d)
+![Image](https://github.com/user-attachments/assets/3fd5d42c-b2e8-4b2c-9bb3-65359aabb61d)
+![Image](https://github.com/user-attachments/assets/29fb0ada-06f2-4238-8f24-e05521f9b1de)
+![Image](https://github.com/user-attachments/assets/46a1aedf-a998-4493-8ba2-c07d1be0fcb6)
+![Image](https://github.com/user-attachments/assets/039a1cda-18ef-4df4-b826-125530f6bcc6)
+![Image](https://github.com/user-attachments/assets/b25ca011-309c-4d8d-b9de-3e2d7eaba104)
+![Image](https://github.com/user-attachments/assets/f8b5e439-1f67-487e-bcbd-a81245bd131f)
+![Image](https://github.com/user-attachments/assets/acc598ef-2b9e-431f-8d92-3f7bbd305df9)
+![Image](https://github.com/user-attachments/assets/d1f5981d-f90e-4168-bc07-8d32c2058d63)
+![Image](https://github.com/user-attachments/assets/6f521289-07bd-4f01-a834-3141b0e41a46)
+![Image](https://github.com/user-attachments/assets/277dc68d-9f80-4639-8f42-aeda844e985f)
+![Image](https://github.com/user-attachments/assets/305828c6-a583-437a-99fc-991310b6fb0a)
+![Image](https://github.com/user-attachments/assets/02cbf308-6303-401c-8728-b6762ca5935e)
+![Image](https://github.com/user-attachments/assets/eb2e33de-f760-4664-82b0-487161aa7bae)
