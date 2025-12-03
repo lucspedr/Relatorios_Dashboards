@@ -1,47 +1,41 @@
-### Acesso Inicial
+#### Acesso Inicial
 
 Ao abrir o sistema, o usuário é direcionado para a Tela de Login, onde pode inserir suas credenciais de acesso.
 Caso não possua cadastro, pode clicar em Novo Usuário, sendo redirecionado para o formulário de criação de conta.
 
 Após concluir o cadastro, o sistema retorna automaticamente à Tela de Login, permitindo que o usuário realize o primeiro acesso com as informações registradas.
 
-### Dashboard (Painel Principal)
+#### Dashboard (Interface Principal)
 
 Após o login, o usuário é levado ao Dashboard, que funciona como o painel central do sistema.
 Nesta tela é possível:
 
-Visualizar um resumo geral das informações do sistema
-
-Acessar rapidamente cada módulo através da barra lateral
-
-Navegar entre telas sem necessidade de retornar ao início
+- Visualizar um resumo geral das informações do sistema.
+- Acessar rapidamente cada módulo através da barra lateral
+- Navegar entre telas sem necessidade de retornar ao início
 
 A partir do Dashboard, todos os módulos do InsightSales ficam acessíveis.
 
-📁 3. Módulos e Funcionalidades
-### 📂 3.1. Clientes
+### Módulos e Funcionalidades
+
+#### Clientes
 
 Cadastro de novos clientes
-
 Visualização da lista completa de clientes registrados
-
 Acesso aos dados individuais para consulta
 
-💰 3.2. Vendas
+#### Vendas
 
-Importação de arquivos com dados de vendas
+- Importação de arquivos com dados de vendas
+- Geração automática de gráficos baseados nos dados importados
+- Cadastro de novos serviços e produtos
 
-Geração automática de gráficos baseados nos dados importados
+#### Relatórios
 
-Cadastro de novos serviços e produtos
+- Visualização de relatórios existentes
+- Registro de novos relatórios (título, descrição, data)
 
-📄 3.3. Relatórios
-
-Visualização de relatórios existentes
-
-Registro de novos relatórios (título, descrição, data)
-
-📊 3.4. Gráficos
+#### Gráficos
 
 Seleção de modelos de gráficos
 
