@@ -1,0 +1,39 @@
+from flask import Flask, request, jsonify
+
+app = Flask(__name__)
+
+@app.route("/usuarios", methods=["GET"])
+def listar():
+    dados = listar_usuarios()
+    return jsonify(dados)
+
+@app.route("/usuarios", methods=["POST"])
+def inserir():
+    corpo = request.json
+    return inserir_usuario(
+        corpo["nome"],
+        corpo["email"],
+        corpo["senha"],
+        corpo["perfil"],
+        corpo["status"]
+    )
+
+@app.route("/usuarios/<int:id>", methods=["PUT"])
+def atualizar(id):
+    corpo = request.json
+    return atualizar_usuario(
+        id,
+        corpo["nome"],
+        corpo["email"],
+        corpo["senha"],
+        corpo["perfil"],
+        corpo["status"]
+    )
+
+@app.route("/usuarios/<int:id>", methods=["DELETE"])
+def deletar(id):
+    return deletar_usuario(id)
+
+
+if __name__ == "__main__":
+    app.run(debug=True)
