@@ -1,6 +1,6 @@
-Atributos utilizados: USUARIO, CLIENTE e VENDA
+##Atributos utilizados: USUARIO, CLIENTE e VENDA
 
-USUARIO - CREATE
+**USUARIO - CREATE**
 from db import conectar
 
 def criar_usuario(nome, email, senha, perfil, status):
@@ -21,7 +21,7 @@ def criar_usuario(nome, email, senha, perfil, status):
 
     print("Usuário criado com sucesso!")
 
-USUARIO - READ
+**USUARIO - READ**
 def listar_usuarios():
     conexao = conectar()
     cursor = conexao.cursor()
@@ -35,7 +35,7 @@ def listar_usuarios():
     cursor.close()
     conexao.close()
 
-USUARIO - UPDATE
+**USUARIO - UPDATE**
 def atualizar_usuario(id_usuario, nome=None, email=None, status=None):
     conexao = conectar()
     cursor = conexao.cursor()
@@ -56,7 +56,7 @@ def atualizar_usuario(id_usuario, nome=None, email=None, status=None):
 
     print("Usuário atualizado!")
 
-USUARIO - DELETE
+**USUARIO - DELETE**
 def deletar_usuario(id_usuario):
     conexao = conectar()
     cursor = conexao.cursor()
